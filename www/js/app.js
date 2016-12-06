@@ -20,7 +20,7 @@ angular.module('starter', ['ionic'])
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-  });
+  })
 })
 .controller("MainCtrl", function () {
     console.log("Main Controller says: Hello World");
