@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -32,6 +32,23 @@
         <h1 class="title">Ionic Blank Starter</h1>
       </ion-header-bar>
       <ion-content>
+          <script id="templates/main.html" type="text/ng-template">
+              <ion-header-bar class="bar-stable">
+                  <h1 class="title">Hello World!</h1>
+              </ion-header-bar>
+              <ion-content class="padding">
+                  <p>Hello World, how are you? <a href="#/page2">Go to Page 2</a></p>
+              </ion-content>
+          </script>
+
+          <script id="templates/page2.html" type="text/ng-template">
+              <ion-header-bar class="bar-stable">
+                  <h1 class="title">Page 2!</h1>
+              </ion-header-bar>
+              <ion-content class="padding">
+                  <p>I am Page 2!<a href="#/main">Go to Page 1</a></p>
+              </ion-content>
+          </script>
       </ion-content>
     </ion-pane>
   </body>
